@@ -15,17 +15,20 @@ body {
 }
 
 .main {
+    position: relative;
     padding: 20px 20px;
     margin: 0px auto;
     max-width: 800px;
     border-radius: 20px;
-    margin-top: 50px;
-    background-color: rgb(106, 137, 204);
+    top: 50px;
+    background-color: rgb(106, 137, 204, 75%);
+    height: 85vh;
 }
 
 .e-flex {
     display: flex;
     box-sizing: border-box;
+    height: 100%;
 }
 
 .e-flex-image {
@@ -35,6 +38,7 @@ body {
     border-radius: 10px;
     background-color: #30336b;
     padding: 10px;
+    height: 100%;
 }
 
 .e-flex-info {
