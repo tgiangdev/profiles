@@ -26,7 +26,6 @@ body {
 .e-flex {
     display: flex;
     box-sizing: border-box;
-    box-shadow: 0 2px 2px rgb(0 90 250 / 5%), 0 4px 4px rgb(0 90 250 / 5%), 0 8px 8px rgb(0 90 250 / 5%), 0 16px 16px rgb(0 90 250 / 5%);
 }
 
 .e-flex-image {
@@ -51,7 +50,7 @@ body {
     margin-bottom: 20px;
 }
 
-.e-flex-title span, .e-flex-time {
+.e-flex-title span {
     display: block;
     height: 10px;
     margin-bottom: 10px;
@@ -63,6 +62,7 @@ body {
     height: 20px;
     margin-bottom: 0;
     margin-top: auto;
+    color: rgb(255, 255, 255, 20%);
 }
 
 /* avatar */
